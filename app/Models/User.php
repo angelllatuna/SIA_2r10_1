@@ -10,7 +10,7 @@ class User extends Model
 
     // Define fillable fields
     protected $fillable = [
-        'username', 'password', 'gender'
+        'username', 'password', 'gender', 'jobid'
     ];
 
     // Disable timestamps
